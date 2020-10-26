@@ -1,0 +1,109 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to Coosto and Navigate to Publish",
+    "line": 4,
+    "id": "login-to-coosto-and-navigate-to-publish",
+    "tags": [],
+    "uri": "features/example_page.feature",
+    "elements": [
+      {
+        "id": "login-to-coosto-and-navigate-to-publish;user-goes-to-publish",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User goes to Publish",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to Coosto login page",
+            "match": {
+              "location": "features/step_definitions/example_page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enters \"ravindra.nayak+approver@coosto.com\" in the username field",
+            "match": {
+              "location": "features/step_definitions/example_page_steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters \"Tester123\" in the password field",
+            "match": {
+              "location": "features/step_definitions/example_page_steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "features/step_definitions/example_page_steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"Content Calendar\" module appears",
+            "match": {
+              "location": "features/step_definitions/example_page_steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5448000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
